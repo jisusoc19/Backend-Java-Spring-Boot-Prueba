@@ -1,0 +1,15 @@
+INSERT INTO Imc_Adultos (nombre, estatura, peso, email, sexo) VALUES ('John Doe', 1.75, 70.5,'johndoe@example.com', 'Male');
+INSERT INTO Imc_Adultos (nombre, estatura, peso, email, sexo) VALUES ('John Doe', 1.75, 70.5,'johndoe@example.corm', 'Male');
+INSERT INTO Imc_Adultos (nombre, estatura, peso, email, sexo) VALUES ('John Doe', 1.75, 70.5,'johndoe@example.comr', 'Male');
+INSERT INTO Imc_Adultos (nombre, estatura, peso, email, sexo) VALUES ('John Doe', 1.75, 70.5,'johndoe@examptyurle.com', 'Male');
+INSERT INTO Imc_Adultos (nombre, estatura, peso, email, sexo) VALUES ('John Doe', 1.75, 70.5,'johndoe@examtryuple.com', 'Male');
+INSERT INTO Imc_Adultos (nombre, estatura, peso, email, sexo) VALUES ('John Doe', 1.75, 70.5,'johndoe@exatyutyumple.com', 'Male');
+INSERT INTO Imc_Adultos (nombre, estatura, peso, email, sexo) VALUES ('John Doe', 1.75, 70.5,'johndoe@sdfsexample.com', 'Male');
+INSERT INTO Imc_Adultos (nombre, estatura, peso, email, sexo) VALUES ('John Doe', 1.75, 70.5,'johndoe@examtyuple.com', 'Male');
+INSERT INTO Imc_Adultos (nombre, estatura, peso, email, sexo) VALUES ('John Doe', 1.75, 70.5,'johndoe@exatyurmple.com', 'Male');
+INSERT INTO Imc_Adultos (nombre, estatura, peso, email, sexo) VALUES ('John Doe', 1.75, 70.5,'johndoe@exsdvcccvample.com', 'Male');
+INSERT INTO Imc_Adultos (nombre, estatura, peso, email, sexo) VALUES ('John Doe', 1.75, 70.5,'johndoe@exdsfample.com', 'Male');
+INSERT INTO Imc_Adultos (nombre, estatura, peso, email, sexo) VALUES ('John Doe', 1.75, 70.5,'johndoe@exaasdmple.com', 'Male');
+INSERT INTO Imc_Adultos (nombre, estatura, peso, email, sexo) VALUES ('John Doe', 1.75, 70.5,'johndoe@exxcvample.com', 'Male');
+INSERT INTO Imc_Adultos (nombre, estatura, peso, email, sexo) VALUES ('John Doe', 1.75, 70.5,'johndoe@examgfgple.com', 'Male');
+INSERT INTO Imc_niños (nombre, edad_total, sexo, peso, email, estatura) VALUES ('Juanito Pérez', 5, 'Masculino', 25.5, 'juanito@example.com', 1.10);
