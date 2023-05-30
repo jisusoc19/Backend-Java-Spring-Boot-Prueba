@@ -46,7 +46,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 import com.imc.makers.Imc.api.models.entity.ImcAdultos;
 
 import com.imc.makers.Imc.models.services.IimcAdultoService;
-@CrossOrigin(origins = {"http://localhost:4200"})
+@CrossOrigin(origins = {"http://localhost:4200","*"})
 @RequestMapping("/api")
 @RestController
 public class ImcAdultoRestcontroller {
@@ -254,7 +254,7 @@ public class ImcAdultoRestcontroller {
 	    @Override
 	    public void addCorsMappings(CorsRegistry registry) {
 	        registry.addMapping("/**")
-	                .allowedOrigins("http://localhost:4200")
+	                .allowedOrigins("http://localhost:4200","*")
 	                .allowedMethods("GET", "POST", "PUT", "DELETE")
 	                .allowedHeaders("*")
 	                .allowCredentials(true);
