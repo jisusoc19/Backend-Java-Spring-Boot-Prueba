@@ -46,7 +46,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 import com.imc.makers.Imc.api.models.entity.ImcAdultos;
 
 import com.imc.makers.Imc.models.services.IimcAdultoService;
-@CrossOrigin(origins = {"http://localhost:4200","https://backend-herokus-java.herokuapp.com/"})
+@CrossOrigin(origins = {"http://localhost:4200","https://backend-java-spring-boot-prueba-production.up.railway.app"})
 @RequestMapping("/api")
 @RestController
 public class ImcAdultoRestcontroller {
