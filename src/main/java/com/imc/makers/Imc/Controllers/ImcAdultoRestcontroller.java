@@ -248,19 +248,17 @@ public class ImcAdultoRestcontroller {
 	    cabecera.add(HttpHeaders.CONTENT_DISPOSITION, "attachment; filename=\"" + recurso.getFilename() + "\"");
 	    return new ResponseEntity<>(recurso, cabecera, HttpStatus.OK);
 	}
-	@Configuration
-	public class CorsConfig implements WebMvcConfigurer {
-
-	    @Override
-	    public void addCorsMappings(CorsRegistry registry) {
-	        registry.addMapping("/**")
-	                .allowedOrigins("http://localhost:4200","*")
-	                .allowedMethods("GET", "POST", "PUT", "DELETE")
-	                .allowedHeaders("*")
-	                .allowCredentials(true);
-	    }
-	}
-
+    @CrossOrigin(origins = {"http://localhost:4200", "*"})
+    @RestController
+    public class CorsConfig implements WebMvcConfigurer {
+        @Override
+        public void addCorsMappings(CorsRegistry registry) {
+            registry.addMapping("/**")
+                    .allowedMethods("GET", "POST", "PUT", "DELETE")
+                    .allowedHeaders("*")
+                    .allowedOrigins("*");
+        }
+    }
 		
 }
 	
